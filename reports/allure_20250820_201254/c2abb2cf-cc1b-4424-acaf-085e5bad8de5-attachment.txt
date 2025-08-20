@@ -1,0 +1,1 @@
+ERROR    utils.api_client:api_client.py:50 Request failed: HTTPSConnectionPool(host='api.example.com', port=443): Max retries exceeded with url: /v1/users (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F1E7059BD0>: Failed to resolve 'api.example.com' ([Errno 11001] getaddrinfo failed)"))
