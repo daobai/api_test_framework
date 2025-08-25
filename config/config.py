@@ -8,7 +8,7 @@ class Config:
     # 认证配置
     API_KEY = os.getenv('API_KEY', 'your-api-key-here')
     TOKEN = os.getenv('API_TOKEN', '')
-
+    print("")
     # 测试配置
     TIMEOUT = int(os.getenv('REQUEST_TIMEOUT', 30))     # 转换为整数类型
     VERIFY_SSL = os.getenv('VERIFY_SSL', 'True').lower() == 'true'      # 转换为布尔值
